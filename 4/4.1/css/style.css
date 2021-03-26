@@ -1,0 +1,9 @@
+div {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.audio>p {
+    margin-left: 20px;
+}
