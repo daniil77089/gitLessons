@@ -1,0 +1,20 @@
+.box {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+
+    border: 3px solid rgb(73, 236, 73);
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.box:hover {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+p {
+    color: rgb(73, 236, 73);
+}
