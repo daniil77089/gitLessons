@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;  
+}
+
+li {
+    list-style: none; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    background: black;
+}
+
+header>* {
+    margin: 40px 80px;
+}
+
+header>nav {
+    width: 35%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li>a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: white;
+}
+
+header .cabinet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+}
+
+header .cabinet>a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+    color: white;
+}
+
+.main_section {
+    background-image: url("../img/main-screen__bgc.png");
+    background-size: cover;
+}
+
+.main_section>.name {
+    padding-left: 312px;
+    padding-top: 170px;
+}
+
+.main_section>.name>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 140%;
+
+    color: white;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main_section>.cards {
+    padding-left: 312px;
+    padding-top: 50px;
+    padding-bottom: 348px;
+
+    display: flex;
+}
+
+.main_section>.cards .cards_box {
+    background: #121212;
+    margin-right: 30px;
+}
+
+.main_section>.cards .cards_content {
+    margin: 20px 30px;
+}
+
+.main_section>.cards .cards_number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+
+    color: white;
+}
+
+.main_section>.cards .cards_name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: white;
+    opacity: 0.4;
+}
