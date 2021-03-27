@@ -1,0 +1,208 @@
+header {
+    text-align: center;
+}
+
+header>h1 {
+    display: inline-block;
+    border-bottom: 2px solid grey;
+}
+
+h2 {
+    border-bottom: 2px solid grey;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Ссылки 
+ ----------------------------------------------
+*/
+
+#link_1 {
+    color: #FFD201;
+}
+
+#link_1:hover {
+    border-bottom: 1px solid #FFD201;
+    border-top: 1px solid #FFD201;
+}
+
+#link_2 {
+    color: #969696;
+    text-shadow: 1px 1px black;
+}
+
+#link_2:hover {
+    color: #F54318;
+    border-bottom: 2px solid #F54318;
+    box-shadow: 0 1px 0 white, 0 2px 0 #969696;
+}
+
+#link_3 {
+    color: #BA7D67;
+    border: 2px solid transparent;
+}
+
+#link_3:hover {
+    border: 2px solid #BA7D67;
+}
+
+#link_4 {
+    color: #CBB8AA;
+    text-shadow: 1px 1px white, 2px 2px #6a5f55;
+}
+
+#link_4:hover {
+    text-shadow: 1px 1px 1px #6a5f55;
+}
+
+#link_5 {
+    color: #E7805E;
+    border-bottom: 1px dashed;
+}
+
+#link_5:hover {
+    border-bottom: 1px solid #9B8381;
+}
+
+#link_6 {
+    color: #D5A39C;
+}
+
+#link_6:hover {
+    transform: scaleX(1.1);
+}
+
+#link_7 {
+    background-image: linear-gradient(#FE5568 50%, #FE5568 50%), linear-gradient(silver 50%, silver 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+    color: #1E3A52;
+    padding-bottom: 3px;
+    transition: .5s ease-in-out;
+}
+
+#link_7:hover {
+    background-size: 100% 2px, 100% 2px;
+    color: #FE5568;
+}
+
+/* Ссылки 
+ ----------------------------------------------
+*/
+
+/* Кнопки
+ ----------------------------------------------
+*/
+
+#button_1 {
+    border-radius: 10px;
+    color: #EC4D3C;
+    background-color: white;
+    background-image: -webkit-radial-gradient(#FCD2D1 2px, rgba(255, 0, 0, 0) 2px);
+    background-image: -o-radial-gradient(#FCD2D1 2px, rgba(255, 0, 0, 0) 2px);
+    background-image: radial-gradient(#FCD2D1 2px, transparent 2px);
+    background-size: 12px 12px;
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
+}
+
+#button_1:hover {
+    background-size: 16px 16px;
+}
+
+#button_2 {
+    border-radius: 10px;
+    color: #F17434;
+    background-color: white;
+    background-image: repeating-linear-gradient(45deg, #FFDDBB, #FFDDBB 1px, transparent 2px, transparent 10px), repeating-linear-gradient(135deg, #FFDDBB, #FFDDBB 1px, transparent 2px, transparent 10px);
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
+}
+
+#button_2:hover {
+    background-image: repeating-linear-gradient(90deg, #FFDDBB, #FFDDBB 1px, transparent 2px, transparent 10px);
+}
+
+#button_3 {
+    border-radius: 10px;
+    color: #36454A;
+    background: linear-gradient(to top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+    box-shadow: 2px 2px 3px black;
+}
+
+#button_3:hover {
+    background: linear-gradient(to bottom, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+}   
+
+#button_4 {
+    border-radius: 10px;
+    color: #598428;
+    background: linear-gradient(20deg, #C3D600, #C3D600 50%, #A5B400 50%);
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
+}
+
+#button_4:hover {
+    background: linear-gradient(-160deg, #C3D600, #C3D600 50%, #A5B400 50%);    
+}
+
+#button_5 {
+    border-radius: 10px;
+    color: #40382D;
+    box-shadow: inset 0 -5px 0 #40382d;
+}
+
+#button_5:hover {
+    box-shadow: inset 0 -60px 0 #40382d, 2px 2px 3px rgb(0 0 0 / 30%);
+    color: #DECDA5;
+}
+
+#button_6 {
+    border-radius: 10px;
+    color: #CEA640;
+    background: #FFF79A;
+    border-bottom: 5px solid #E1B442;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 30%);
+}
+
+#button_6:hover {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 30%);
+    text-shadow: 0 1px 0 rgb(0 0 0 / 30%);
+}
+
+#button_7 {
+    color: #45A0A4;
+    background: linear-gradient(to right, #E3612C 0, #E3612C 33.3%, #FCCE30 33.3%, #FCCE30 66.6%, #58554B 66.6%, #58554B) bottom no-repeat;
+    background-size: 70% 5px;
+}
+
+#button_7:hover {
+    background-size: 100% 5px;
+}
+
+/* Кнопки
+ ----------------------------------------------
+*/
