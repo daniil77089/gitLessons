@@ -1,0 +1,57 @@
+body {
+    display: flex;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 20px;
+    text-align: center;
+
+    border: 3px solid rgb(73, 236, 73);
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.box:hover {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+p {
+    color: rgb(73, 236, 73);
+}
+
+#box_1 {
+    background: linear-gradient(45deg, white, rgb(71, 226, 71));
+}
+
+#box_2 {
+    background: radial-gradient(50% 50%, white, rgb(134, 241, 112));
+}
+
+#box_3 {
+    background: repeating-linear-gradient(45deg, white, rgb(134, 241, 112) 10px, white 10px, rgb(134, 241, 112) 20px);
+}
+
+.button {
+    text-align: center;
+    background: rgb(134, 241, 112);
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#button_1 {
+    border-radius: 5px;
+    border-bottom: 3px solid green;
+}
