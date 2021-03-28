@@ -1,0 +1,42 @@
+body {
+    display: flex;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 3%;
+}
+
+.box>p {
+    padding: 30px;
+    color: white;
+}
+
+.box:nth-child(2n - 1) {
+    background: black;
+}
+
+.box:nth-child(2n) {
+    background: red;
+}
+
+.box:nth-child(1):hover {
+    transform: translate(120px, 50%);
+}
+
+.box:nth-child(2):hover {
+    transform: scale(2, 0.5);
+}
+
+.box:nth-child(3):hover {
+    transform: rotate(0.5turn);
+}
+
+.box:nth-child(4):hover {
+    transform: skew(30deg, 20deg);
+}
+
+.box:nth-child(5):hover {
+    transform: scale(0.5) translate(-100%, -100%);
+}
